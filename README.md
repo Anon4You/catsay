@@ -1,5 +1,9 @@
-# 🐾 catsay
+<p align="center">
+  <img src="assets/logo.png" alt="InstaGhost Logo" width="200"/>
+</p>
 
+<h1 align="center">🐈 catsay</h1>
+<p align="center">
 A terminal-based feline messenger. Inspired by `cowsay`, but for those who prefer whiskers and attitude.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
