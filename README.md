@@ -1,41 +1,49 @@
 <p align="center">
-  <img src="assets/logo.png" alt="InstaGhost Logo" width="200"/>
+  <img src="assets/logo.png" alt="catsay Logo" width="200"/>
 </p>
 
-<h1 align="center">🐈 catsay</h1>
-<p align="center">
-A terminal-based feline messenger. Inspired by `cowsay`, but for those who prefer whiskers and attitude.
+<h1 align="center">catsay</h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python: 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.6+-blue.svg" alt="Python: 3.6+"/></a>
+</p>
+
+<p align="center">
+  A terminal-based feline messenger. Inspired by <code>cowsay</code>, but for those who prefer whiskers and attitude.
+</p>
 
 ---
 
 ### ✨ Features
-* **Dynamic Bubbles:** Speech bubbles that wrap and scale with your message.
-* **Custom Cat Assets:** Load various cat designs from the `catfiles/` directory.
-* **Piped Input:** Works seamlessly with `echo`, `cat`, or other CLI outputs.
-* **Lightweight:** Pure Python with no external dependencies.
+
+- **Dynamic Bubbles:** Speech bubbles that wrap and scale with your message.
+- **Custom Cat Assets:** Load various cat designs from the `catfiles/` directory.
+- **Piped Input:** Works seamlessly with `echo`, `cat`, or other CLI outputs.
+- **Lightweight:** Pure Python with no external dependencies.
 
 ---
 
 ### 🚀 Quick Start
 
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/Anon4You/catsay.git
-    cd catsay
-    ```
+> [!TIP]
+> Make sure you have **Python 3.6+** installed before proceeding.
 
-2.  **Make it executable**
-    ```bash
-    chmod +x catsay.py
-    ```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Anon4You/catsay.git
+   cd catsay
+   ```
 
-3.  **Run it!**
-    ```bash
-    ./catsay.py "Hello, Human."
-    ```
+2. **Make it executable**
+   ```bash
+   chmod +x catsay.py
+   ```
+
+3. **Run it!**
+   ```bash
+   ./catsay.py "Hello, Human."
+   ```
 
 ---
 
@@ -67,11 +75,14 @@ Options:
 fortune | ./catsay.py
 ```
 
+> [!TIP]
+> You can chain multiple commands with pipes — anything that prints to stdout can be fed straight into `catsay`.
+
 ---
 
 ### 📂 Directory Structure
 
-```bash
+```text
 .
 ├── catsay.py        # The engine
 └── catfiles/        # Your ASCII art collection
@@ -83,10 +94,12 @@ fortune | ./catsay.py
 ---
 
 ### 🤝 Connect
-* **GitHub:** [Anon4You](https://github.com/Anon4You)
-* **Telegram:** [@nullxvoid](https://t.me/nullxvoid)
-* **Instagram:** [@alienkrishn](https://instagram.com/alienkrishn)
+
+- **GitHub:** [Anon4You](https://github.com/Anon4You)
+- **Telegram:** [@nullxvoid](https://t.me/nullxvoid)
+- **Instagram:** [@alienkrishn](https://instagram.com/alienkrishn)
 
 ---
 
-> **Disclaimer:** This project is provided strictly for **educational purposes**. No real cats were harmed in the making of this script.
+> [!NOTE]
+> This project is provided strictly for **educational purposes**. No real cats were harmed in the making of this script.
